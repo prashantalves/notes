@@ -1,3 +1,19 @@
 Don't use distribuition repos since they are old.
 
 Instead follow instruction from the haxe site
+
+For Wheezy:
+----------
+
+Need to compile from source due to glibc incompatabilities.
+
+From the repo follow instruction, boiled down to this:
+1. Get repos
+git clone --recursive git://github.com/HaxeFoundation/haxe.git
+
+2. Install OCAML
+http://ocaml.org/docs/install.html#Debian
+
+3. Build and install
+make
+su -c "make install"
