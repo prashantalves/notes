@@ -17,3 +17,21 @@ http://ocaml.org/docs/install.html#Debian
 3. Build and install
 make
 su -c "make install"
+
+OpenFL
+-----
+
+Install lime
+sudo haxelib install lime
+
+Install openFL
+sudo haxelib install openfl
+
+Build a demo project like so
+sudo openfl create PiratePig
+
+cd to PiratePig
+then 
+sudo openfl test neko
+
+follow bread crumbs and do more haxelib installs till it runs
